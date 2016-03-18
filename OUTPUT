@@ -1,0 +1,30 @@
+Enter the float you want to convert :
+-> 15,6
+Let's converting 15.6
+
+fractionalPart = 0.6000004
+integralPart = 15.0
+
+15.0 -> 1111
+0.6000004 -> 1001100110011001101
+
+Mantissa pre-shift = 11111001100110011001101
+shiftNeeded 3
+
+Result : 01000001011110011001100110011010
+
+#########################################################################
+Enter the float you want to convert :
+-> 0,2
+Let's converting 0.2
+
+fractionalPart = 0.2
+integralPart = 0.0
+
+0.0 -> 0
+0.2 -> 00110011001100110011001
+
+Mantissa pre-shift = 000110011001100110011001
+shiftNeeded -3
+
+Result : 00111110010011001100110011001000
